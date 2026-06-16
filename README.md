@@ -10,12 +10,9 @@ This project was developed for a robotics competition and focuses on applying AI
 ---
 
 
-## Demo Video
+## Video
 
  [![Demo](./images/video_page.png)](https://www.youtube.com/watch?v=ZWalqDr9FTI&t=43s)
-
-
----
 
 
 ---
@@ -32,7 +29,9 @@ Beach environments face several challenges:
 
 ## Solution
 <img src="./images/solution.png" width="500" />
+
 BeachBot AI provides an automated cleaning system with:
+
 - Garbage detection using AI  
 - Autonomous navigation using LiDAR  
 - Waste collection and classification  
@@ -69,7 +68,7 @@ YOLO is used to detect different types of garbage in real time.
 The model processes camera input and identifies objects, enabling the robot to locate waste efficiently during operation.
 
 
-### LiDAR is used to scan and map the environment before operation.
+### LiDAR Navigation
 <img src="./images/lidar.png" width="200" />
 
 
@@ -80,6 +79,7 @@ Based on the map, the robot follows a predefined path and avoids obstacles in re
 
 ## How It Works
 <img src="./images/work_flow.png" width="700" />
+
 1. Detect waste using AI  
 2. Navigate the environment autonomously  
 3. Collect and sort garbage  
