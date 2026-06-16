@@ -79,7 +79,7 @@ Based on the map, the robot follows a predefined path and avoids obstacles in re
 ---
 
 ## How It Works
-<img src="./images/work_flow.png" width="500" />
+<img src="./images/work_flow.png" width="700" />
 1. Detect waste using AI  
 2. Navigate the environment autonomously  
 3. Collect and sort garbage  
