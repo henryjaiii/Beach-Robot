@@ -42,20 +42,39 @@ BeachBot AI provides an automated cleaning system with:
 
 ## System Overview
 
-
 <img src="./images/architecture.png" width="500" />
 
 Architecture (Hardware):
 The system consists of:
 
 - Camera for object detection  
-<img src="./images/yolo.png" width="200" />
-
 - LiDAR sensor for mapping and obstacle avoidance  
-<img src="./images/lidar.png" width="200" />
-
 - Control board for navigation  
 - Garbage collection mechanism  
+
+---
+## Technology
+
+The project applies AI and robotics technologies, including:
+
+- YOLO (You Only Look Once) for real-time object detection  
+- LiDAR for mapping and obstacle avoidance  
+- Computer vision for waste identification  
+- Embedded system for robot control  
+
+### YOLO Object Detection
+<img src="./images/yolo.png" width="200" />
+
+YOLO is used to detect different types of garbage in real time.  
+The model processes camera input and identifies objects, enabling the robot to locate waste efficiently during operation.
+
+
+### LiDAR is used to scan and map the environment before operation.
+<img src="./images/lidar.png" width="200" />
+
+
+LiDAR is used to scan the environment and generate a map of the area.  
+Based on the map, the robot follows a predefined path and avoids obstacles in real time.
 
 ---
 
