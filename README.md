@@ -9,16 +9,34 @@ This project was developed for a robotics competition and focuses on applying AI
 
 ---
 
-Video:
-https://www.youtube.com/watch?v=ZWalqDr9FTI&t=43s
+
+## Demo Video
+
+ [![Demo](./images/video_page.png)](https://www.youtube.com/watch?v=ZWalqDr9FTI&t=43s)
+
 
 ---
 
 ## Achievement
 
-- Award: [Your award name]
-- Competition: [Competition name]
-- Showcase event: Carbon Neutrality Forum 2024
+  </b>
+- Award: Silver
+- Competition: ITCC Innovation Awards 2024
+<img src="./images/competition1.jpeg" width="500" />
+  </b>
+- Award: Silver
+- Competition: Industrial Project Competition 
+<img src="./images/competition2.jpeg" width="500" />
+  </b>
+- Award: Certificate
+- Competition: YDC Dare to Change Business Pitch
+<img src="./images/competition3.jpeg" width="500" />
+
+  </b>
+- Award: Certificate
+- Competition: Hong Kong University Student Innovation & Entrepreneurship 
+<img src="./images/competition4.jpeg" width="500" />
+
 
 ---
 
@@ -35,6 +53,7 @@ Beach environments face several challenges:
 ## Solution
 
 BeachBot AI provides an automated cleaning system with:
+./images/soluion.png
 
 - Garbage detection using AI  
 - Autonomous navigation using LiDAR  
@@ -45,17 +64,24 @@ BeachBot AI provides an automated cleaning system with:
 
 ## System Overview
 
+Architecture (Hardware):
+./images/architecture.png
+
 The system consists of:
 
 - Camera for object detection  
+./images/yolo.png
+
 - LiDAR sensor for mapping and obstacle avoidance  
+./images/lidar.png
 - Control board for navigation  
+
 - Garbage collection mechanism  
 
 ---
 
 ## How It Works
-
+./images/work_flow.png
 1. Detect waste using AI  
 2. Navigate the environment autonomously  
 3. Collect and sort garbage  
@@ -63,23 +89,15 @@ The system consists of:
 ---
 
 ## Results
-
 - Reduced cleaning time  
 - Reduced manpower requirement  
 - Lower operational cost  
-
 ---
 
 ## Project Media
 
 Images:
 ./images/robot.jpg  
-./images/prototype.jpg  
-./images/competition.jpg  
-
-Video:
-https://youtu.be/your-video-link  
-
 ---
 
 ## Report
