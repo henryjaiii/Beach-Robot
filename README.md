@@ -74,7 +74,7 @@ The system consists of:
 ---
 
 ## Report
-./docs/Beachbot.pdf  
+[PDF](./docs/Beachbot.pdf)
 
 ---
 
